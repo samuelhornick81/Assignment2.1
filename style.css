@@ -1,0 +1,24 @@
+.Nav{
+    display: block;
+    padding: 8px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    text-decoration: white;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color: white
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
